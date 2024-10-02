@@ -1,0 +1,63 @@
+
+h1, h2, h3, h4, h5, h6, p, div, button, li, a {
+    font-family: var(--main-font-family);
+}
+
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+.logoHeader{
+    margin-left: 106px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.rightButton{
+    margin-right: 106px;
+}
+
+.rightButton>button:nth-child(1) {
+    background: unset;
+    border: none;
+    font-size: 15px;
+    margin-right: 20px;
+    color: white;
+}
+
+.rightButton>button:nth-child(2) {
+    background: var(--background-color);
+    border: none;
+    font-size: 15px;
+    color: white;
+    border-radius: 7px;
+    padding: 7px 15px;
+}
+
+.headerFlex {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    
+    
+}
+.nav_black {
+    background-color: #111;
+    transition: all 0.5s;
+
+}
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top: 15px;
+    height: 80px;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    
+}

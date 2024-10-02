@@ -1,0 +1,30 @@
+.poster-container {
+    position: relative;
+    display: inline-block;
+}
+
+.img-poster {
+    position: relative;
+}
+
+.poster {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.youtube-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;  
+    transform: translate(-50%, -50%);
+    width: 100px; /* Adjust button size as needed */
+    height: 100px; /* Adjust button size as needed */
+    /* background-image: url('path/to/youtube-logo.png'); Replace 'path/to/youtube-logo.png' with the actual path to your YouTube logo image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}

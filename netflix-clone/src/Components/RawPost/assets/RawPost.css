@@ -1,0 +1,59 @@
+.row{
+    margin-left: 20px;
+    color: #fff;
+}
+
+.posters{
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y: auto;
+    display: inline-flex;
+}
+
+.posters::-webkit-scrollbar{
+    display: none;
+}
+
+.wrapperS{
+    overflow: auto;
+}
+
+.wrapperS::-webkit-scrollbar {
+    display: none;
+}
+
+.slideSlick{
+    margin-right: 20px;
+    padding: 0px 10px;  
+    transition: 0.5s;
+    overflow: hidden;
+}
+.img-poster{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    transition: transform 0.2s ease; /* Smooth transition for the hover effect */
+}
+
+.img-poster:hover {
+    border-radius: 6px;
+    transform: scale(1.3); /* Increase size on hover */
+}
+
+.poster{
+    max-height: 250px;
+    margin-right: 10px;
+    flex-shrink: 0;
+    width: 100%;
+    border-radius: 6px;
+
+}
+
+.smallposter{
+    max-height: 100px;
+
+}
+.title{
+    color: #fff;
+    margin: 2px;
+}
